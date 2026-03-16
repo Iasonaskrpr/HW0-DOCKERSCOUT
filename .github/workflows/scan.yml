@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'rust:trixie'
+          default: 'timberio/vector:0.55.0.custom.3936121-distroless-libc'
 
 # env:
 #   REGISTRY: ghcr.io
